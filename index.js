@@ -9,7 +9,7 @@ const app = express()
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}))
 
-const PORT = 4000;
+const PORT = 5432;
 
 app.get('/', (req,res)=> {
     res.json({
